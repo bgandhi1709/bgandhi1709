@@ -1,0 +1,24 @@
+{
+  "name": "@rudra/source",
+  "version": "0.0.0",
+  "license": "MIT",
+  "scripts": {
+    "prepare": "nx g @nx-dotnet/core:restore"
+  },
+  "private": true,
+  "dependencies": {},
+  "devDependencies": {
+    "@nx-dotnet/core": "^2.4.5",
+    "@nx/js": "20.0.0",
+    "@swc-node/register": "~1.9.1",
+    "@swc/core": "~1.5.7",
+    "@swc/helpers": "~0.5.11",
+    "nx": "20.0.0",
+    "prettier": "^2.6.2",
+    "tslib": "^2.3.0",
+    "typescript": "~5.5.2"
+  },
+  "workspaces": [
+    "packages/*"
+  ]
+}
